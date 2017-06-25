@@ -16,18 +16,18 @@
 
 # C++ Project Template<a id="sec-1" name="sec-1"></a>
 
+A C++ Project Template. 
 Because you should concentrate on the important parts.
 
 ## Introduction<a id="sec-1-1" name="sec-1-1"></a>
 
-This project is a project template for C++
-Making files, folders, CMakeLists.txt and all the dirty stuff.
-If you are too lazy to setup your project, this is for you.
+This is a project template for C++.
+Making files, folders, CMakeLists.txt and all the boring stuff all done and ready to go.
 
 ## How to use<a id="sec-1-2" name="sec-1-2"></a>
 
 1.  forking
-    fork this project and use it. This if you are really lazy.
+    fork this project and use it. If you are really lazy.
 
 2.  cloning
     if you do not want this project to appear as forked,
