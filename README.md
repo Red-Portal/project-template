@@ -26,10 +26,10 @@ Making files, folders, CMakeLists.txt and all the boring stuff all done and read
 
 ## How to use<a id="sec-1-2" name="sec-1-2"></a>
 
-1.  forking
+1.  forking - 
     fork this project and use it. If you are really lazy.
 
-2.  cloning
+2.  cloning - 
     if you do not want this project to appear as forked,
     clone this project and use it as you wish.
 

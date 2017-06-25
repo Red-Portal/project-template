@@ -11,7 +11,7 @@ cmake_install.cmake
 Makefile
 
 # executables
-templat_project
+template_project
 
 # gcc temporary files
 *.gch
