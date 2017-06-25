@@ -26,7 +26,7 @@ If you are too lazy to setup your project, this is for you.
 ## How to use<a id="sec-1-2" name="sec-1-2"></a>
 
 1.  forking
-    fork this project if you are **REALLY** lazy.
+    fork this project and use it. This if you are really lazy.
 
 2.  cloning
     if you do not want this project to appear as forked,
