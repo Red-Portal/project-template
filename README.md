@@ -20,19 +20,21 @@ Because you should concentrate on the important parts.
 ## Introduction<a id="sec-1-1" name="sec-1-1"></a>
 
 This project is a project template for C++
-Making files, folders, CMakeLists.txt and stuff ugh&#x2026;.
-This is for you
+Making files, folders, CMakeLists.txt and all the dirty stuff.
+If you are too lazy to setup your project, this is for you.
 
 ## How to use<a id="sec-1-2" name="sec-1-2"></a>
 
--   **fork** this project if you are **REALLY** lazy.
+1.  forking
+    fork this project if you are **REALLY** lazy.
 
--   if you do not want this project to appear as forked,
+2.  cloning
+    if you do not want this project to appear as forked,
     clone this project and use it as you wish.
 
 ## How to contribute<a id="sec-1-3" name="sec-1-3"></a>
 
-**This project is open for contribution**
+This project is open for contribution.
 Send me push requests any time you have a good idea.
 Please describe reasons for additions or fixes.
 

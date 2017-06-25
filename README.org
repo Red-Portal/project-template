@@ -4,17 +4,21 @@
 
 ** Introduction
 This project is a project template for C++
-Making files, folders, CMakeLists.txt and stuff ugh....
-This is for you
+Making files, folders, CMakeLists.txt and all the dirty stuff.
+If you are too lazy to setup your project, this is for you.
+
 
 ** How to use 
-- *fork* this project if you are *REALLY* lazy.
+1. forking
+   fork this project if you are *REALLY* lazy.
 
-- if you do not want this project to appear as forked,
-  clone this project and use it as you wish.
+2. cloning
+   if you do not want this project to appear as forked,
+   clone this project and use it as you wish.
+
   
 ** How to contribute
-*This project is open for contribution*
+This project is open for contribution.
 Send me push requests any time you have a good idea.
 Please describe reasons for additions or fixes.
 
