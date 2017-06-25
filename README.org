@@ -1,11 +1,11 @@
 * C++ Project Template
 
+  A C++ Project Template. 
   Because you should concentrate on the important parts.
 
 ** Introduction
-This project is a project template for C++
-Making files, folders, CMakeLists.txt and all the dirty stuff.
-If you are too lazy to setup your project, this is for you.
+This is a project template for C++.
+Making files, folders, CMakeLists.txt and all the boring stuff all done and ready to go.
 
 
 ** How to use 
