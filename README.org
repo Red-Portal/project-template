@@ -1,0 +1,23 @@
+* C++ Project Template
+
+  Because you should concentrate on the important parts.
+
+** Introduction
+This project is a project template for C++
+Making files, folders, CMakeLists.txt and stuff ugh....
+This is for you
+
+** How to use 
+- *fork* this project if you are *REALLY* lazy.
+
+- if you do not want this project to appear as forked,
+  clone this project and use it as you wish.
+  
+** How to contribute
+*This project is open for contribution*
+Send me push requests any time you have a good idea.
+Please describe reasons for additions or fixes.
+
+I would really appreciate contributions from experienced CMakeLists.txt users.
+
+
