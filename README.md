@@ -7,6 +7,7 @@
 <li><a href="#sec-1-1">1.1. Introduction</a></li>
 <li><a href="#sec-1-2">1.2. How to use</a></li>
 <li><a href="#sec-1-3">1.3. How to contribute</a></li>
+<li><a href="#sec-1-4">1.4. Licence</a></li>
 </ul>
 </li>
 </ul>
@@ -39,3 +40,16 @@ Send me push requests any time you have a good idea.
 Please describe reasons for additions or fixes.
 
 I would really appreciate contributions from experienced CMakeLists.txt users.
+
+## Licence<a id="sec-1-4" name="sec-1-4"></a>
+
+MIT License
+
+Copyright (c) 2017 Red-Portal
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
