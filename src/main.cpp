@@ -11,11 +11,17 @@
 // furnished to do so, subject to the following conditions:
 
 #include <iostream>
+#include <thread>
 
 #include "header.hpp"
 
 int main()
 {
-    std::cout << "hello, world";
+    auto thr = std::thread
+        ([]()
+         {
+             std::cout << "hello, world" << std::endl;
+         });
+    thr.join();
     return 0;
 }

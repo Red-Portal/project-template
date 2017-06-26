@@ -13,20 +13,24 @@
 cmake_minimum_required(VERSION 3.8)
 project(template_project)
 
-set(CMAKE_CXX_STANDARD 17)
+set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
+set(SOURCE_FILES ${SOURCE_DIR}/main.cpp)
 
 if(MSVC)
-  set(CMAKE_CXX_FLAGS "/WX- /Wall /O2 /Ob2")
+    set(CMAKE_CXX_FLAGS "/WX- /Wall /O2 /Ob2")
 else()
-  set(CMAKE_CXX_FLAGS "-pthread -Wall -O3")
+    set(CMAKE_CXX_FLAGS "-Wall -Wextra -O3 -pthread")
 endif()
 
 include_directories(${PROJECT_SOURCE_DIR}/include)
+add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
-set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
+# compile options
+target_compile_features(${PROJECT_NAME}
+    PRIVATE
+    cxx_lambdas)
 
-add_executables(template_project ${SOURCE_DIR})
-
-install(TARGETS template_project
+# install
+install(TARGETS ${PROJECT_NAME}
     RUNTIME DESTINATION bin)
 
