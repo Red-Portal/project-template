@@ -39,8 +39,10 @@ Making files, folders, CMakeLists.txt and all the boring stuff: done and ready t
     Clone this project and use it as you wish.
     The project will appear as cloned.
 
+``` shell
     git clone https://github.com/Red-Portal/project-template.git
     cd project-template
+```
 
 -   Fork 
     Fork this project and use it. If you are really lazy.
