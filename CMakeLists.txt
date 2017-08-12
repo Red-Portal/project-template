@@ -60,5 +60,5 @@ target_link_libraries(${PROJECT_NAME}
 
 # install
 install(TARGETS ${PROJECT_NAME}
-    RUNTIME DESTINATION ${PROJECT_NAME}/bin)
+    RUNTIME DESTINATION ${PROJECT_SOURCE_DIR}/bin)
 
