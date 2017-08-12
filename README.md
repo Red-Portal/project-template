@@ -22,16 +22,20 @@ Because you should concentrate on the important parts.
 ## Introduction<a id="sec-1-1" name="sec-1-1"></a>
 
 This is a project template for C++.
-Making files, folders, CMakeLists.txt and all the boring stuff all done and ready to go.
+Making files, folders, CMakeLists.txt and all the boring stuff: done and ready to go.
 
 ## How to use<a id="sec-1-2" name="sec-1-2"></a>
 
 1.  forking - 
     fork this project and use it. If you are really lazy.
+    The project will appear as forked
 
 2.  cloning - 
-    if you do not want this project to appear as forked,
-    clone this project and use it as you wish.
+    Clone this project and use it as you wish.
+    The project will appear as cloned.
+
+3.  download -
+    Download and unzip the project.
 
 ## How to contribute<a id="sec-1-3" name="sec-1-3"></a>
 

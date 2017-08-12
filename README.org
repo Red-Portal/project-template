@@ -11,11 +11,14 @@ Making files, folders, CMakeLists.txt and all the boring stuff: done and ready t
 ** How to use 
 1. forking - 
    fork this project and use it. If you are really lazy.
+   The project will appear as forked
 
 2. cloning - 
-   if you do not want this project to appear as forked,
-   clone this project and use it as you wish.
-
+   Clone this project and use it as you wish.
+   The project will appear as cloned.
+   
+3. download -
+   Download and unzip the project.
   
 ** How to contribute
 This project is open for contribution.
