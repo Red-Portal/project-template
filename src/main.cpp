@@ -13,15 +13,14 @@
 #include <iostream>
 #include <thread>
 
-#include "header.hpp"
+#include <template_project/header.hpp>
 
 int main()
 {
-    auto thr = std::thread
-        ([]()
-         {
-             std::cout << "hello, world" << std::endl;
+    auto thr = std::thread([]() {
+            std::cout << "hello, world" << std::endl;
          });
+
     thr.join();
     return 0;
 }
