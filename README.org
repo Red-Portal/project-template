@@ -26,6 +26,14 @@ cd project-template
   
 *** Change the default project name
 change all occurences of ~template-project~ to your project name!
+Run the install script as below in order to do this automatically.
+The install script will self delete upon success.
+
+#+begin_src Shell
+sudo sh ./install.sh --NAME=PROJECT_NAME
+#+end_src
+
+Windows powershell script will be added soon
 
 *** Use it as you wish
 - Add custom CMake Find modules to ~./cmake~

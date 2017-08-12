@@ -41,6 +41,7 @@ Making files, folders, CMakeLists.txt and all the boring stuff: done and ready t
 ``` shell
     git clone https://github.com/Red-Portal/project-template.git
     cd project-template
+
 ```
 
 -   Fork this project and use it. If you are really lazy.
@@ -51,6 +52,14 @@ Making files, folders, CMakeLists.txt and all the boring stuff: done and ready t
 ### Change the default project name<a id="sec-1-2-2" name="sec-1-2-2"></a>
 
 change all occurences of `template-project` to your project name!
+Run the install script as below in order to do this automatically.
+The install script will self delete upon success.
+
+``` shell
+	sudo sh ./install.sh --NAME=PROJECT_NAME
+```
+
+Windows powershell script will be added soon
 
 ### Use it as you wish<a id="sec-1-2-3" name="sec-1-2-3"></a>
 
