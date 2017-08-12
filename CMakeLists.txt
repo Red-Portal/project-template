@@ -23,6 +23,11 @@
 cmake_minimum_required(VERSION 3.8)
 project(template_project)
 
+# cmake modules path
+set(CMAKE_MODULE_PATH
+    ${CMAKE_MODULE_PATH} ${PROJECT_SOURCE_DIR}/cmake)
+
+# project source files
 set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
 set(SOURCE_FILES ${SOURCE_DIR}/main.cpp)
 
@@ -33,8 +38,15 @@ endforeach()
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
 
-set(BUILD_FLAGS
-    "${CMAKE_CXX_FLAGS} -g -fPIC -Wall -Wextra")
+# Build options
+if(Win32 AND MSVC)
+    set(BUILD_FLAGS
+	"${CMAKE_CXX_FLAGS} /Ox /Wall /arch /MP")
+else()
+    set(BUILD_FLAGS
+	"${CMAKE_CXX_FLAGS} -g -fPIC -Wall -Wextra")
+endif()
+
 message("C++ flags = ${BUILD_FLAGS}")
 
 set_target_properties(${PROJECT_NAME}
@@ -42,14 +54,15 @@ set_target_properties(${PROJECT_NAME}
     COMPILE_FLAGS "${BUILD_FLAGS}"
     CXX_STANDARD 17)
 
+# Include directories
 target_include_directories(${PROJECT_NAME}
     PRIVATE
     ${PROJECT_SOURCE_DIR}/include)
 
-# compile options
-# target_compile_features(${PROJECT_NAME}
-#     PRIVATE
-#     cxx_lambdas)
+# adding compile features will let cmake handle C++ standards
+target_compile_features(${PROJECT_NAME}
+    PRIVATE
+    cxx_lambdas)
 
 ## Thread library dependency
 find_package(Threads REQUIRED)

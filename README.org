@@ -9,24 +9,43 @@ Making files, folders, CMakeLists.txt and all the boring stuff: done and ready t
 
 
 ** How to use 
-1. forking - 
-   fork this project and use it. If you are really lazy.
-   The project will appear as forked
-
-2. cloning - 
-   Clone this project and use it as you wish.
-   The project will appear as cloned.
-   
-3. download -
-   Download and unzip the project.
+1. Clone or fork or download
+- Clone
+  Clone this project and use it as you wish.
+  The project will appear as cloned.
   
+#+begin_src Shell
+git clone https://github.com/Red-Portal/project-template.git
+cd project-template
+#+end_src
+
+- Fork 
+  Fork this project and use it. If you are really lazy.
+  The project will appear as forked
+  
+- Download
+  Download and unzip the project.
+  
+  
+2. Change the default project name
+change all occurences of ~template-project~ to your project name!
+
+3. Use it as you wish
+- Add custom CMake Find modules to ~./cmake~
+- Add header interfaces to ~./include/PROJECT_NAME/~
+- Add source files to ~./src~
+- Add documentatons to ~./doc~
+  
+
+** Requirements
+   1) git
+   2) C++ compiler
+   3) CMake
+      
 ** How to contribute
 This project is open for contribution.
 Send me push requests any time you have a good idea.
 Please describe reasons for additions or fixes.
-
-I would really appreciate contributions from experienced CMakeLists.txt users.
-
 
 ** Licence
 
