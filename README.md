@@ -35,8 +35,7 @@ Making files, folders, CMakeLists.txt and all the boring stuff: done and ready t
 
 ### Clone or fork or download<a id="sec-1-2-1" name="sec-1-2-1"></a>
 
--   Clone
-    Clone this project and use it as you wish.
+-   Clone this project and use it as you wish.
     The project will appear as cloned.
 
 ``` shell
@@ -44,12 +43,10 @@ Making files, folders, CMakeLists.txt and all the boring stuff: done and ready t
     cd project-template
 ```
 
--   Fork 
-    Fork this project and use it. If you are really lazy.
+-   Fork this project and use it. If you are really lazy.
     The project will appear as forked
 
--   Download
-    Download and unzip the project.
+-   Download and unzip the project.
 
 ### Change the default project name<a id="sec-1-2-2" name="sec-1-2-2"></a>
 

@@ -10,8 +10,7 @@ Making files, folders, CMakeLists.txt and all the boring stuff: done and ready t
 
 ** How to use 
 *** Clone or fork or download
-- Clone
-  Clone this project and use it as you wish.
+- Clone this project and use it as you wish.
   The project will appear as cloned.
   
 #+begin_src Shell
@@ -19,12 +18,10 @@ git clone https://github.com/Red-Portal/project-template.git
 cd project-template
 #+end_src
 
-- Fork 
-  Fork this project and use it. If you are really lazy.
+- Fork this project and use it. If you are really lazy.
   The project will appear as forked
   
-- Download
-  Download and unzip the project.
+- Download and unzip the project.
   
   
 *** Change the default project name
