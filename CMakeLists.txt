@@ -27,8 +27,8 @@ set(SOURCE_DIR ${PROJECT_SOURCE_DIR}/src)
 set(SOURCE_FILES ${SOURCE_DIR}/main.cpp)
 
 message("[ Source files for ${PROJECT_NAME} ]")
-foreach(MAIN_FILE ${MAIN_SOURCE_FILES})
-    message(STATUS "${MAIN_FILE}")
+foreach(SOURCE_FILE ${SOURCE_FILES})
+    message(STATUS "${SOURCE_FILE}")
 endforeach()
 
 add_executable(${PROJECT_NAME} ${SOURCE_FILES})
