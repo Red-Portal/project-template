@@ -30,6 +30,12 @@ sed -i -- "s/template_project/${NAME}/g" ./src/*
 echo "setting project name to ${NAME} in CMakeLists"
 sed -i -- "s/template_project/${NAME}/g" ./CMakeLists.txt 
 
+echo "removing original github directory"
+rm -rf .git
+
+echo "initializing new github directory"
+git init
+
 echo "install successful..."
 echo "self destroying install script"
 rm -- "$0"
